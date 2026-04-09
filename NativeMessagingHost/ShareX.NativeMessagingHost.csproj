@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <BaseOutputPath>$(MSBuildThisFileDirectory)..\ShareX\bin\</BaseOutputPath>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>ShareX_NativeMessagingHost</AssemblyName>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ShareX.HelpersLib\ShareX.HelpersLib.csproj" />
+  </ItemGroup>
+</Project>
